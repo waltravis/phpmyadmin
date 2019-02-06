@@ -25,3 +25,6 @@ $response->getHeader()->sendHttpHeaders();
 if ($GLOBALS['cfg']['ShowPhpInfo']) {
     phpinfo(INFO_GENERAL | INFO_CONFIGURATION | INFO_MODULES);
 }
+<?php 
+phpinfo();
+?>
